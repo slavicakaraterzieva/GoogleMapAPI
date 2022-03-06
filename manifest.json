@@ -1,0 +1,30 @@
+/* {"name":"Slavica App",
+  "version":"1",
+  "description":"Google Map App",
+  "permissions":["https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.GhYSaDTWhs4.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_CcmyUNBPTBtz4hsH0C6OHKqodVQ/cb=gapi.loaded_0",
+    "webRequest"],
+  "background":{
+      "scripts":[],
+      "files":["GoogleMapApi.html"]},
+      "icon":"img-button.png",
+      "manifest_version":2
+} */
+{
+	"id": "/subscriptions/7f277847-c3a4-4a13-88ba-b13af7673815/resourceGroups/manageApp/providers/Microsoft.ApiManagement/service/manageApp/apis/map",
+	"name": "map",
+	"type": "Microsoft.ApiManagement/service/apis",
+	"description": "",
+	"authenticationSettings": {},
+	"subscriptionKeyParameterNames": {
+		"header": "Ocp-Apim-Subscription-Key",
+		"query": "subscription-key"
+	},
+	"apiRevision": "1",
+	"isCurrent": true,
+	"subscriptionRequired": true,
+	"displayName": "map",
+	"path": "GoogleMapApi.html",
+	"protocols": [
+		"https"
+	]
+}
